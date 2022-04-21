@@ -33,16 +33,14 @@ img {
 
 header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 5rem;
-  padding: 20px;
 }
 
 header p {
   font-weight: 500;
   font-size: 3rem;
   color: var(--grey);
+  margin-right: 25px;
+  
 }
 
 header ul {

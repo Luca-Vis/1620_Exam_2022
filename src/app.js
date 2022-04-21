@@ -52,3 +52,17 @@ const contactsList = [
 ]
 
 // Your code goes here
+
+function loadcontacts(){
+  let createLink = document.createElement("a");
+  let createlist = document.createElement("ul");
+  let createlistItem = document.createElement("li");
+
+  let contacts = document.getElementById("display_all_contacts")
+  for (let i=0;i< contactsList.length; i++){
+  contacts.appendChild(createlist)
+  createlist.appendChild(createlistItem)
+  createlistItem.textContent = contactsList[i].name
+  }
+}
+
